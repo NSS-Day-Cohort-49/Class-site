@@ -173,7 +173,8 @@ main {
 
 .modal-header {
   background-color: lightgray !important;
-  color: #238193;
+  color: #2d63a1;
+  font-weight: bolder;
 }
 
 .modal-body img {
