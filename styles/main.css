@@ -1,11 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
-
-/* p {
-  font-family: "Barlow", sans-serif;
-} */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;700&display=swap");
 
 * {
-  font-family: "Kaushan Script", cursive;
+  font-family: "Montserrat Alternates", sans-serif;
 }
 
 /* html, body {
@@ -18,14 +14,17 @@
 
 html,
 body {
-  background-image: url("https://cdn.wallpapersafari.com/38/93/wOfzb7.jpg");
-  /* background-image: url("https://www.getbidbar.com/assets/blog/programming_topics.jpg"); */
+  background-image: url("https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F1005771222%2FProgramming-code-abstract-technology-background-of-software-developer-and--Computer%2F960x0.jpg%3Ffit%3Dscale");
   min-height: 500px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   overflow-x: hidden;
+}
+
+body:background-image {
+  opacity: 0.5;
 }
 
 blockquote {
@@ -52,13 +51,14 @@ blockquote {
 #cohort22 {
   display: inline-block;
   /* color: #238193; */
-  color: #6594c9;
+  color: #2d63a1;
 }
 
 #jumbheader {
   box-shadow: 2px 2px 2px rgb(167, 166, 166);
-  background-color: #238193 !important;
+  background-color: rgb(206, 136, 79) !important;
   color: lightgray;
+  border-radius: 5px;
 }
 .header-text {
   margin: 0 auto;
@@ -165,7 +165,7 @@ main {
 }
 
 .contactIcons {
-  color: #238193;
+  color: #2d63a1;
 }
 .contactIcons:hover {
   transform: scale(1.2);
@@ -190,29 +190,45 @@ main {
 .navbar.navbar-light.bg-light.footer {
   margin-top: 10px;
   font-size: 1em;
-  background-color: #238193 !important;
+  background-color: rgb(206, 136, 79) !important;
   color: white;
+  border-radius: 5px;
 }
 
 #demo-date {
   text-align: center;
+  background-color: whitesmoke;
+  border-radius: 30px;
+  opacity: 0.9;
 }
 
 #demo-date a {
-  color: #238193 !important;
+  color: #2d63a1 !important;
+}
+
+#text-center {
+  text-align: center;
+  background-color: whitesmoke;
+  border-radius: 30px;
+  color: #2d63a1;
+  opacity: 0.9;
 }
 
 button {
   cursor: pointer;
 }
 .btn-outline-primary {
-  color: #238193 !important;
-  border-color: #238193 !important;
+  color: #2d63a1 !important;
+  border-color: #2d63a1 !important;
+  font-weight: bolder;
+  margin-top: 1em;
 }
 
 .btn-outline-primary:hover {
-  color: white !important;
-  background-color: #238193 !important;
+  color: whitesmoke !important;
+  background-color: #2d63a1 !important;
+  /* color: rgb(212, 157, 111) !important;
+  background-color: #2d63a1 !important; */
 }
 
 /* adjusts size of contact icons depending on size of card */
@@ -265,15 +281,35 @@ button {
     padding-right: none;
   }
 
-  nav-link {
+  .nav-link {
     transition: all 0.2s ease-in-out;
   }
 
-  nav-link:hover {
+  .nav-link:hover {
     transform: scale(1.4);
   }
 
-  .text-center {
+  .demo-section {
     color: whitesmoke;
+  }
+
+  h1.text-center {
+    color: whitesmoke;
+  }
+
+  ul .navbar-nav {
+    color: #2d63a1;
+  }
+
+  .nav-item {
+    color: #2d63a1;
+  }
+
+  .nav-link {
+    color: #2d63a1;
+  }
+
+  .nav-item {
+    color: #2d63a1;
   }
 }
