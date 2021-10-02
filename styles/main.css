@@ -51,7 +51,8 @@ blockquote {
 
 #cohort22 {
   display: inline-block;
-  color: #238193;
+  /* color: #238193; */
+  color: #6594c9;
 }
 
 #jumbheader {
@@ -270,5 +271,9 @@ button {
 
   nav-link:hover {
     transform: scale(1.4);
+  }
+
+  .text-center {
+    color: whitesmoke;
   }
 }
