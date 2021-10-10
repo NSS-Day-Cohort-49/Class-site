@@ -56,7 +56,7 @@
             "id": 5,
             "firstName": "Kipp",
             "lastName": "Minton",
-            "reelThemIn": "“I want to get online... I NEED A COMPUTER! - Johnny Mnemonic”",
+            "reelThemIn": "“I want to get online... I NEED A COMPUTER!” - Johnny Mnemonic",
             "bio": null,
             "github": "https://github.com/KippMinton",
             "linkedIn": "https://www.linkedin.com/in/luciankippminton/",
@@ -82,7 +82,7 @@
             "id": 7,
             "firstName": "Alex",
             "lastName": "Lambert",
-            "reelThemIn": "“Great minds discuss ideas; average minds discuss events, small minds discuss people” - Eleanor Roosevelt",
+            "reelThemIn": "“Great minds discuss ideas; average minds discuss events, small minds discuss people.” - Eleanor Roosevelt",
             "bio": "<p>Great minds discuss ideas;average mainds discuss events, small mids discuss people - Eleanor Roosevelt</p>",
             "github": "https://github.com/AlexLam12",
             "linkedIn": "https://www.linkedin.com/in/alex-lambert-a1a1b3169",
@@ -114,7 +114,7 @@
             "linkedIn": "https://www.linkedin.com/in/matthew-xiong-028a98217/",
             "portfolio": null,
             "email": "mattxiong_14@hotmail.com",
-            "proImg": "Profile-picture.jpg",
+            "proImg": "Matt_Xiong.png",
             "funImg": "Profile-picture.jpg"
         },
         {
@@ -140,7 +140,7 @@
             "linkedIn": "https://www.linkedin.com/in/samcarbine/",
             "portfolio": "https://scarbine.github.io/",
             "email": "scarbine@me.com",
-            "proImg": "Profile-picture.jpg",
+            "proImg": "Sam_Carbine.png",
             "funImg": "Profile-picture.jpg"
         },
         {
@@ -179,7 +179,7 @@
             "linkedIn": "https://www.linkedin.com/in/avery-noble/",
             "portfolio": "kor0sensei.github.io",
             "email": "tynesellis@icloud.com",
-            "proImg": "Profile-picture.jpg",
+            "proImg": "Avery_Noble.jpg",
             "funImg": "Profile-picture.jpg"
         },
         {
@@ -218,7 +218,7 @@
             "linkedIn": "https://www.linkedin.com/in/logancurits4/",
             "portfolio": "https://lcurtis4.github.io/",
             "email": "lcurtis0104@gmail.com",
-            "proImg": "Profile-picture.jpg",
+            "proImg": "Logan_Curtis.jpg",
             "funImg": "Profile-picture.jpg"
         },
         {
@@ -231,7 +231,7 @@
             "linkedIn": "https://www.linkedin.com/in/thomas-witherow-651a45203/",
             "portfolio": null,
             "email": "twitherow@bellsouth.net",
-            "proImg": "Profile-picture.jpg",
+            "proImg": "Thomas_Witherow.jpg",
             "funImg": "Profile-picture.jpg"
         },
         {
@@ -296,7 +296,7 @@
             "linkedIn": "https://www.linkedin.com/in/tristan-bron/",
             "portfolio": "https://www.greglawrence.me",
             "email": "https://tbronny.github.io/",
-            "proImg": "Profile-picture.jpg",
+            "proImg": "Tristan_Bron.jpg",
             "funImg": "Profile-picture.jpg"
         },
         {
@@ -309,7 +309,7 @@
             "linkedIn": "https://www.linkedin.com/in/spaceboilunkey/",
             "portfolio": null,
             "email": "kkalthenonbinarypal@gmail.com",
-            "proImg": "Profile-picture.jpg",
+            "proImg": "Kal_McClure.png",
             "funImg": "Profile-picture.jpg"
         }
     ]
