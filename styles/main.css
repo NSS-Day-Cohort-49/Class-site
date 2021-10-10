@@ -148,6 +148,10 @@ main {
     object-fit: cover;
 }
 
+.card-text {
+  text-align: center;
+}
+
 .col,
 [class*="col-"] {
   padding-right: 0;
