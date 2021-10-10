@@ -12,7 +12,7 @@ $.ajax({
   });
 
 function cohortMembers(list) {
-  let data = list.cohort;
+  let data = list.cohort.sort((a, b) => (a.lastName > b.lastName) ? 1 : -1);
   data.forEach(function (item) {
     let studentContact = `<div class="studentContact">`
     //if student doesn't have a portfolio site then don't display the icon
