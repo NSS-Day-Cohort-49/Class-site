@@ -12,7 +12,7 @@ $.ajax({
   });
 
 function cohortMembers(list) {
-  let data = list.cohort;
+  let data = list.cohort.sort((a, b) => (a.lastName > b.lastName) ? 1 : -1);
   data.forEach(function (item) {
     let studentContact = `<div class="studentContact">`
     //if student doesn't have a portfolio site then don't display the icon
@@ -46,7 +46,7 @@ function cohortMembers(list) {
     studentContact += `</div>`
 
     let studentInfo = `<div class="col-md-3 cohortMems">
-          <img class="card-img-top" src="images/classmates/${item.proImg}" alt="${item.firstName} ${item.lastName}" data-toggle="modal" data-target="#cohortMember${item.id}" style="cursor:pointer;">
+          <img class="card-img-top object-fit cover" src="images/classmates/${item.proImg}" alt="${item.firstName} ${item.lastName}" data-toggle="modal" data-target="#cohortMember${item.id}" style="cursor:pointer;">
           <div class="card-body">
             <h4 class="card-title title-font">${item.firstName} ${item.lastName}</h4>`
     //if student didn't provide a reelthemin quote then nothing is displayed
